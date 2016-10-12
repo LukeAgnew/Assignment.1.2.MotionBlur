@@ -1,0 +1,26 @@
+*** Creating Trace Output File 'MotionBlur.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"font5x7.o"'
+### List of Objects: adding '"lcd_grph.o"'
+### List of Objects: adding '"lcd_hw.o"'
+### List of Objects: adding '"retarget.o"'
+### List of Objects: adding '"serial.o"'
+### List of Objects: adding '"lpc2400.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"motionblur.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "font5x7.o" "lcd_grph.o" "lcd_hw.o" "retarget.o" "serial.o" "lpc2400.o" "main.o" "motionblur.o" --library_type=microlib --strict --scatter "MotionBlur.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\MotionBlur.map" -o "MotionBlur.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'MotionBlur.axf'
+### ADS-LD Command File: 'MotionBlur.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'MotionBlur.lnp', Handle=0x00000BA0
+### Writing '.lnp' file
+### ADS-LD Command file 'MotionBlur.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
